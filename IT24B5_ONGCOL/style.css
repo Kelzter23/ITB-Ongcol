@@ -1,16 +1,16 @@
 body{
-    background-image: url("PHOTOS/BackGround\ 1.jpg");
+    background-image: url("image1/premium_photo-1676654935937-109c7936b8ff.jfif");
     background-repeat: no-repeat;
     background-size: cover;
 }
 h1{
-    color: rgb(60, 179, 113), blue;
+    color: #ffffff, #f0f0f5;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 100px;
 }.header {
     overflow: hidden;
-    background-color: rgb(33, 117, 7);
+    background-color: hsl(47, 10%, 36%);
     /*padding: 20px 10px;*/
   }
   
@@ -43,8 +43,8 @@ h1{
   
   /* Change the background color on mouse-over */
   .header a:hover {
-    background-color: rgb(88, 3, 3);
-    color: White;
+    background-color: hsl(0, 10%, 72%);
+    color: hsl(0, 0%, 0%);
   }
   
   .header a.active {
@@ -62,8 +62,8 @@ h1{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(153, 245, 125);
-    color: rgb(13, 151, 75);
+    background-color: hsl(47, 10%, 36%);
+    color: rgb(250, 252, 251);
     text-align: center;
   }
   #content{
@@ -71,4 +71,8 @@ h1{
     text-align: justify;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 75px;
+  }
+
+  .p1{text-align: center;
+
   }
